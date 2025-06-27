@@ -36,6 +36,15 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_native_splash: ^2.4.6
 
+
+flutter_native_splash:
+  image: assets/noteable_bg.png
+  color: "#ffffff"
+  android: true
+  ios: true
+  android_gravity: center
+  ios_content_mode: scaleAspectFit
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -87,3 +96,4 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
